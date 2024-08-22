@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -46,7 +46,7 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--botao-principal)
 }
 
 .container__aviso {
@@ -113,8 +113,8 @@ body {
 }
 
 .lista__item {
-    font-size: 32px;
-    color: var(--branco-principal);
+    font-size: 48px;
+    color: var(--cinza-secundario);
 }
 
 .rodape {
@@ -129,20 +129,25 @@ body {
     margin-top: 1em;
 }
 
-.lista__link a{
-    text-decoration: none;
-    color: var(--branco-principal);
-    margin-left: 1em;
-}
-
 .rodape__texto {
     margin: 1em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
 }
 
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
 .lista__link a:hover {
-    color: var(--botao-azul);
+    outline-color: var(--botao-azul);
 }
 
 .lista__link a:active {
