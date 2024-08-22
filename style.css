@@ -147,7 +147,7 @@ body {
 }
 
 .lista__link a:hover {
-    outline-color: var(--botao-azul);
+    color: var(--botao-azul);
 }
 
 .lista__link a:active {
